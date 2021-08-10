@@ -13,5 +13,4 @@ This is the solution I gave to the problem first. The one I crafted from scratch
 This is my conclusion after further understanding of the problem and perhaps checking it with peers and different ways to solve the algorithms.
 
 
-### Check my Code Wars profile 
-###### [Code Wars](https://www.codewars.com/users/Mangonando)
+### Check my [Code Wars](https://www.codewars.com/users/Mangonando) profile 
