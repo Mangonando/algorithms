@@ -4,11 +4,5 @@
 // oddCount(15) //=> 7, i.e [1, 3, 5, 7, 9, 11, 13]
 
 function oddCount(n) {
-  let counter = 0;
-  if (n % 2 !== 0) {
-    counter = (n - 1) / 2;
-  } else {
-    counter = n / 2;
-  }
-  return counter;
+  return Math.floor(n / 2);
 }
