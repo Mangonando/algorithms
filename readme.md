@@ -2,9 +2,9 @@
 
 #### Here is my constant training and improving solving problems.
 
-**You will see at least two solutions**
-* Solution
-* Bettter Solution
+**You will see you will see two solutions**
+* Files with algorithm solutions
+* Optimized (Folder)
 
 **Files with algorithm solutions**
 This is the solution I gave to the problem first. The one I crafted from scratch and sometimes it might not be the most optimal solution.
