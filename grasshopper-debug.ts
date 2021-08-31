@@ -6,10 +6,15 @@
 // To convert fahrenheit to celsius:
 
 // celsius = (fahrenheit - 32) * (5/9)
-// Please round to 5dp
+// Please round to 5dp (use Math.round())
 
-function weatherInfo(temp) {
-  var c = (temp - 32) * (5 / 9);
-  if (c <= 0) return c + " is freezing temperature";
+export function convertToCelsius(temp: number): number {
+  const celsius = Math.round((temp - 32) * (5 / 9) * 1e5) / 1e5;
+  return celsius;
+}
+
+export function weatherInfo(temp: number): string {
+  const c = convertToCelsius(temp);
+  if (c < 0) return c + " is freezing temperature";
   else return c + " is above freezing temperature";
 }
