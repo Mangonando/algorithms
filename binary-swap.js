@@ -61,22 +61,22 @@
 // Note: in the more advanced test cases, arrays and functions will be mixed together so beware! ;)
 
 function binarySwap(input) {
-    console.log(input);
-    let result;
-    switch (typeof input) {
-      case "number":
-      case "string":
-        result = input == 0 ? 1 : 0;
-        break;
-      case "function":
-        result = binarySwap(input());
-        break;
-      case "object":
-        result =
-          input.length === 1
-            ? binarySwap(input[0])
-            : input.map((num) => binarySwap(num));
-        break;
-    }
-    return result;
+  console.log(input);
+  let result;
+  switch (typeof input) {
+    case "number":
+    case "string":
+      result = input == 0 ? 1 : 0;
+      break;
+    case "function":
+      result = binarySwap(input());
+      break;
+    case "object":
+      result =
+        input.length === 1
+          ? binarySwap(input[0])
+          : input.map((num) => binarySwap(num));
+      break;
   }
+  return result;
+}
